@@ -8,6 +8,8 @@ void printReadableDate(int dd, int mm, int yyyy);
 
 int daysInMonth[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 int monthKeyValue[] = {0, 1, 4, 4, 0, 2, 5, 0, 3, 6, 1, 4, 6};
+// using an array of pointers to characters provides greater flexibility, memory efficiency, 
+// ease of initialization, and better interoperability with string functions
 char* daysOfWeek[] = {"Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
 char* monthNames[] = {"", "Jan", "Feb", "March", "April", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"}; 
 
